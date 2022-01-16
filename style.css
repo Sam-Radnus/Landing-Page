@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+body{
+    overflow: hidden;
+}
+img{
+    top:0;
+    left:0;
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+div.searchbar{
+    position: absolute;
+    border-style: solid;
+    border-right-style: none;
+    border-color: white;
+    top:10%;
+    left:7%;
+    height:7%;
+    border-width: 1px;
+    width:38%;
+    background: transparent;
+}
+input{
+    background: transparent;
+    color:white;
+}
+i{
+    color:white;
+    margin:14px 0px 0px 21px;
+    font-weight: lighter;
+    font-size: x-large;
+}
+div#stacks{
+    position: absolute;
+    left:18%;
+    top:0;
+    border-right-style:solid;
+}
+div#search-icon{
+    border-right-style:solid;
+    border-width: 1px;
+    border-color: white;
+    z-index:2;
+    background: transparent;
+   
+    top:0;
+}
+div#search-icon i{
+    margin-left:40%;
+}
+div#image{
+    position: absolute;
+    top:8.5%;
+    left:45%;
+    height:10%;
+    width:45%;
+   background: transparent;
+}
+
+div#image img{
+    
+    width:25%;
+    
+}
+p.white span {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+p.white{
+   color:white;
+   position: absolute;
+   z-index:3;
+   top: 2%;
+   left:10%;
+   font-size: 175px;
+   font-family: 'Anton', sans-serif;
+ 
+   
+}
+div.rotate{
+   
+    position: absolute;
+    top:41%;
+    left:70%;
+    transform: rotate(-90deg);
+}
+div.rotate h1{
+    font-family: 'Teko', sans-serif;
+    font-size:40px;
+    letter-spacing: 3px;
+}
+div.video{
+    position: absolute;
+    height:40%;
+    width: 30%;
+    top:33%;
+    left:80%;
+    font-family: 'Teko', sans-serif;
+    
+}
+strong{
+    mix-blend-mode: overlay;
+   
+}
+div.searchbar div{
+    border-color: white;
+    border-width: 1px;
+    width: 15%;
+    height:100%;
+}
+div.right{
+    position: absolute;
+    border-style: solid;
+    border-left-style: none;
+    border-color: white;
+    height:7%;
+    border-width: 1px;
+    top:10%;
+    width:40%;
+    background: transparent;
+    left:56.6%;
+}
+div#cart{
+    position: absolute;
+    left:70%;
+    border-left-style: solid;
+    border-color:white;
+    height: 100%;
+    border-width: 1px;
+    top:0%;
+    width:fit-content;
+}
+h1{
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Kanit', sans-serif;
+}
+div#text{
+    position: absolute;
+    left:84%;
+    top:-40%;
+    height: 100%;
+}
+i{
+    margin-right:5px;
+}
+div.quote{
+    position: absolute;
+    color:white;
+    font-family: 'Kanit', sans-serif;
+    width:45%;
+    top:70%;
+    left:30%;
+}
